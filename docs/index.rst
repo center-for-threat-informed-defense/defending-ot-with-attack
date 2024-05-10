@@ -1,25 +1,28 @@
-Defending OT with ATT&CK |version|
-==================================
+Defending Operational Technology (OT) with ATT&CK
+=================================================
 
-.. TODO Enter a one paragraph summary here.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
+Defending OT with ATT&CK provides a customized collection of MITRE ATT&CK® techniques 
+tailored to the attack surface and threat model for OT environments. The collection of 
+threats contained in the ATT&CK knowledgbase, including historical attacks against OT,
+are used to define a reference architecture and technology domains of interest for OT. 
+The resultant collection can be used by organizations that use OT to evaluate and employ 
+security controls for real-world adversary behaviors.
 
 .. toctree::
     :maxdepth: 2
     :caption: Contents
 
     introduction
-
+    overview
+    process
+    mappings
+    use cases
+    example scenarios
+    
 Notice
 ------
 
-© |copyright_years| MITRE Engenuity. Approved for public release. Document number(s)
+© 2024 MITRE Engenuity. Approved for public release. Document number(s)
 |prs_numbers|.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
