@@ -14,10 +14,11 @@ security controls for real-world adversary behaviors.
 
     introduction
     overview
+    reference architecture
     process
     mappings
     use cases
-    example scenarios
+    cyber tabletop
     
 Notice
 ------
