@@ -1,8 +1,12 @@
 Process
 =======
 
+REVIEW RELEVANCE OF THIS PAGE
+
 Defending OT with ATT&CK uses the methodology and tooling created as part of the Center's 
-Defending IaaS with ATT&CK project.
+Defending IaaS with ATT&CK project as a basis. 
+
+Workbench
 
 Scope
 -----
@@ -12,11 +16,14 @@ generate a reference architecture that depicts technologies in scope for a hybri
 
 Scoping considerations: 
 Adapted Purdue Reference Model (historically the primary reference to describe the structure of OT networks), ATT&CK for ICS asset list, international standards, potential sector-based use cases (e.g., factory automation, maritime transport).
+•	Understand the Purdue Reference Model: 
+The Purdue Enterprise Reference Architecture (PERA) model is a framework for organizing industrial control systems (ICS) into hierarchical levels. It helps in structuring the segmentation of industrial processes and IT systems, enhancing security by delineating clear boundaries between different operational zones. The Purdue Model is widely used in industrial settings to define and manage interactions between IT and OT systems. It helps in implementing robust security measures by segregating networks and systems based on their functions and criticality.
 
 Reference Assets
 -----------------
-The following considerations were taken foe defining the assets that comprise Defending OT 
+The following considerations were taken for defining the assets that comprise Defending OT 
 with ATT&CK's reference architecture:
+
 * Enterprise IT and OT Security
   -  Enterprise IT and OT security attack surface management, OT and ICS areas of interest, 
      network assets, wireless protocols in energy sector, manufacturing systems.
@@ -30,30 +37,3 @@ with ATT&CK's reference architecture:
 * Impacting ICS
   - Understanding impact to assets, particulary in context of ICS and application of ATT&CK 
     in IT and OT environments.
-
-Threat Model Methodology
-------------------------
-
-1. Identify the attack surface.
-   Determine the relevant technologies where a threat actor can impact operations and 
-   generate a reference architecture that depicts technologies in scope for a hybrid 
-   IT/OT system.
-
-2. Compile source information.
-   Gather information resources and applicable cyber threat intelligence including ATT&CK 
-   adversary behavior used to target the identified IT/OT systems.
-
-3. Define selection criteria. 
-   Develop guidelines including or excluding an adversary activity from the threat model. 
-   Selection criteria includes:
-   - Virtualized infrastructure (e.g., virtual machines, cloud)
-   - Physical technologies (e.g., identity access management servers, network)
-   - Operational technologies (e.g., PLC, HMI)
-
-4. Review applicable adversarial techniques. 
-   Evaluate adversary techniques according to prior defined criteria. Exclude 
-   non-applicable techniques.
-
-5. Build custom threat collection. 
-   Generate a tailored threat intelligence collection for hybrid IT/OT systems. Provide 
-   the collection in a sharable and extensible format.

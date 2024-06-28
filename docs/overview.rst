@@ -7,12 +7,14 @@ Operational Technology (OT) systems. This includes and is not limited to:
 * techniques on Industrial Control Systems (ICS), and
 * techniques on OT assets that run similar operating systems, protocols, and applications as enterprise IT assets.
 
-Defending OT with ATT&CK provides a customized collection of MITRE ATT&CK® 
-techniques tailored to the attack surface and threat model for OT environments. 
-Techniques in ATT&CK for Enterprise, ATT&CK for ICS, and other relevant ATT&CK
-datasets such as Cloud and Containers were analyzed to identify and tag those 
-that apply to OT. This collection can be used by organizations that use OT to 
-evalaute and employ security controls based on real-world adversary behaviors.
+Defending OT with ATT&CK provides a customized collection of MITRE ATT&CK® techniques 
+tailored to the attack surface and threat model for OT environments. Historical attacks 
+against OT and adversarial tactics, techniques, and procedures (TTPs) as contained in 
+ATT&CK for Enterprise, ATT&CK for ICS, and other relevant ATT&CK datasets such as Cloud 
+and Containers were analyzed to identify and define a reference architecture and technology 
+domains of interest specific to OT. The resultant collection can be used by organizations 
+that use OT to evaluate, plan, and employ security controls based on known, real-world 
+adversary behaviors targeting those environments.
 
 Background
 ----------
