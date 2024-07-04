@@ -7,7 +7,12 @@ organization. By following these steps, organizations can effectively delineate 
 surface, compile relevant threat intelligence, apply rigorous selection criteria, and build 
 a comprehensive threat collection to bolster their cybersecurity defenses.
 
+ .. <<!-- TO DO --!>>
+   build out the steps
+
 Step 1. Identify the attack surface.
+------------------------------------
+
    Determine the relevant technologies where a threat actor can impact operations and 
    generate a reference architecture that depicts technologies in scope for a hybrid 
    IT/OT system.
@@ -35,6 +40,7 @@ Step 1. Identify the attack surface.
 To learn more about assets, visist :ref:
 
 Step 2. Compile source information.
+-----------------------------------
    
    Gather information resources and applicable cyber threat intelligence including ATT&CK 
    adversary behavior used to target the identified IT/OT systems.
@@ -63,6 +69,7 @@ Key Focus Areas:
 * Identity Management (Azure AD)
 
 Step 3. Define selection criteria. 
+----------------------------------
    
    Develop guidelines including or excluding an adversary activity from the threat model. 
    Selection criteria includes virtualized infrastructure (e.g., virtual machines, cloud), 
@@ -105,6 +112,7 @@ Guidance:
 * Compile an initial list of applicable ATT&CK techniques for each asset.
 
 Step 4. Review applicable adversarial techniques. 
+-------------------------------------------------
    
    Review and evaluate adversary techniques for each asset according to previously defined 
    criteria. Exclude non-applicable techniques.
@@ -127,7 +135,9 @@ Curate a refined list of adversarial techniques for each asset.
 
   * Determine the final set of techniques for the collection.
 
-Step 5. Build custom threat collection. 
+Step 5. Build custom threat collection.
+---------------------------------------
+
    Generate a tailored threat intelligence collection for hybrid IT/OT systems. Provide 
    the collection in a sharable and extensible format.
 
