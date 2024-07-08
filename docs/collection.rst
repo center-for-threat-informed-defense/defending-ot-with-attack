@@ -28,22 +28,20 @@ This includes:
    - STIX bundle
    - multi-domain ATT&CK matrix for Navigator
 
-**Download the Threat Collection**
-
- .. <<!-- TO DO --!>>
-  get downloads for dota
+Download the Threat Collection
+------------------------------
 
 .. raw:: html
 
     <p>
-        <a class="btn btn-primary" target="_blank" href="https://mitre-attack.github.io/attack-navigator/#layerURL=https%3A%2F%2Fcenter-for-threat-informed-defense.github.io%2Finsider-threat-ttp-kb%2Fgreen_seen_v1_v2.json">
-        <i class="fa fa-map-signs"></i> Download ATT&CK Workbench Collection</a>
+        <a class="btn btn-primary" target="_blank" href="..\modified_work_bench_file.json" download="modified_work_bench_file.json">
+        <i class="fa fa-download"></i> Download ATT&CK Workbench Collection (6.2mb)</a>
 
-        <a class="btn btn-primary" target="_blank" href="..\green_seen_v1_v2.xlsx" download="green_seen_v1_v2.xlsx">
-        <i class="fa fa-download"></i> Download EXCEL (18kb)</a>
+        <a class="btn btn-primary" target="_blank" href="..\hybrid_att&ck_matrix.xlsx" download="hybrid_att&ck_matrix.xlsx">
+        <i class="fa fa-download"></i> Download Hybrid ATT&CK Matrix - EXCEL (32kb)</a>
 
-        <a class="btn btn-primary" target="_blank" href="..\green_seen_v1_v2.json" download="green_seen_v1_v2.json">
-        <i class="fa fa-download"></i> Download JSON (153kb)</a>
+        <a class="btn btn-primary" target="_blank" href="..\defending-ot-with-att&ck-0.3.json" download="defending-ot-with-att&ck-0.3.json">
+        <i class="fa fa-download"></i> Download JSON Threat Collection (8.875mb)</a>
     </p>
 
 Building the Threat Collection

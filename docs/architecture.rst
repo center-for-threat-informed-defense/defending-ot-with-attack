@@ -11,16 +11,14 @@ operational zones, and interactions between IT and OT systems.
 
 .. image:: ./_static/ref_arch.png
 
-Building the Reference Architecture
-----------------------------------------------
-
 The Defending OT with ATT&CK reference architecture is adapted from the `Purdue Enterprise Reference Architecture (PERA) model <https://www.energy.gov/sites/default/files/2022-10/Infra_Topic_Paper_4-14_FINAL.pdf>`_, 
 which historically has been the primary reference to describe the structure of OT networks. 
 ATT&CK for Enterprise and ATT&CK for ICS platforms and assets were reviewed to aid in determining 
 relevant assets and technologies. Consideration was also given for international standards and 
 sector-based use cases (e.g., factory automation, maritime transport).
 
-**Architecture Assets**
+Architecture Assets
+-------------------
 
 Control systems standards and guidance containing reference architectures with assets were reviewed 
 when developing the assets that comprise Defending OT with ATT&CK's reference architecture. These sources 
@@ -54,8 +52,18 @@ taken when defining the Defending OT with ATT&CK's architecture assets:
 
 .. image:: ./_static/assets.png
 
-The below table provides descriptions for each of the Defending OT with ATT&CK Architecture Assets. All assets can be mapped to 
-ATT&CK for Enterprise's platforms and/or ATT&CK for ICS' assets.
+The below table provides descriptions for each of the 21 identified Defending OT with ATT&CK Architecture Assets. All assets can be mapped to 
+ATT&CK for Enterprise's platforms and/or ATT&CK for ICS' assets. There are nine assets where ATT&CK for ENterprise and ATT&CK for ICS overlap:
+
+* Control Server
+* Human-Machine Interface (HMI)
+* Jump Hosts
+* Application Server
+* Engineering Workstation
+* Routers in OT networks 
+* Data Historian
+* VPN Server 
+* Firewall
 
 +--------------------------------------+---------------------------------------------------------------------------------------------------+
 + Asset Name                           + Description                                                                                       +
