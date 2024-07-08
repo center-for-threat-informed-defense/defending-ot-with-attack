@@ -20,7 +20,6 @@ could be used within an IT/OT hybrid architecture and environment.
     :maxdepth: 2
     :caption: Contents
 
-    introduction
     overview
     architecture
     collection
@@ -28,8 +27,8 @@ could be used within an IT/OT hybrid architecture and environment.
     use cases
     exercise
     
-.. <!-- TO DO --!> add image of Hybrid ATT&CK Matrix
-
+.. image:: ./_static/hybrid_visual.png
+    
 Notice
 ------
 
