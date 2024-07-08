@@ -26,9 +26,7 @@ could be used within an IT/OT hybrid architecture and environment.
     methodology
     use cases
     exercise
-    
-.. image:: ./_static/hybrid_visual.png
-    
+
 Notice
 ------
 
