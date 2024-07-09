@@ -51,7 +51,7 @@ between ATT&CK for Enterprise and ATT&CK for ICS.
 .. image:: ./_static/enterprise_ics.png
 
 Get Involved
------------
+------------
 
 This project provides the community with resources for understanding of the attack surface 
 and threat model for various assets within a hybrid IT/OT architecture and environment. There are 
