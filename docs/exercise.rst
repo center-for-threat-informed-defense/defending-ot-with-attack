@@ -37,7 +37,7 @@ assumed the role of cybersecurity experts for an organization with a technical e
 similar to the hacked power plant infrastructure. Red boxes are used to indicate 
 assets impacted during the campaign.
 
-.. image:: ./_static/2022ukr.png
+.. image:: ./_static/exercise.png
 
 The ATT&CK techniques investigated during the exercise are provided in the table below, 
 organized under tactics - the reasons an advesary performs the action. A mix of techniques 
