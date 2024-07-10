@@ -55,7 +55,8 @@ Defending OT with ATT&CK builds upon prior work developed by the Center, includi
 Defending OT with ATT&CK uses the methodology and tooling created as part of the Center's 
 `Defending IaaS with ATT&CK project <https://center-for-threat-informed-defense.github.io/defending-iaas-with-attack/>`_ as a basis. The Defending IaaS project methodology provides
 steps to identify and select techniques across multiple ATT&CK matrices that align to a defined 
-attack surface, proving to be a solid foundation for developing Defending OT project resources.
+attack surface, proving to be a solid foundation for developing Defending OT project resources, 
+including the threat collection.
 
 The Center developed Defending IaaS With ATT&CK project to provide the community with a 
 collection of MITRE ATT&CK® techniques tailored to the unique attack surface and threat model 
@@ -72,7 +73,7 @@ rationale in Workbench's note sections, to generate the shared mapping file.
 
 The Center created ATT&CK Workbench to enable users to explore, create, annotate, and share 
 extensions of MITRE ATT&CK®. ATT&CK Workbench allows users to manage and extend their own 
-local version of ATT&CK and keep it synchronized with the ATT&CK knowledge base. ATT&CK Workrbench 
+local version of ATT&CK and keep it synchronized with the ATT&CK knowledge base. ATT&CK Workbench 
 is an open source tool publicly available on `GitHub <https://github.com/center-for-threat-informed-defense/attack-workbench-frontend>`_.
 
 ATT&CK Workbench enables a number of important use cases within the ATT&CK community, such as:

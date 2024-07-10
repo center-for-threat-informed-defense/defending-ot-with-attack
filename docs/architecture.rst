@@ -53,7 +53,7 @@ taken when defining the Defending OT with ATT&CK's architecture assets:
 .. image:: ./_static/assets.png
 
 The below table provides descriptions for each of the 21 identified Defending OT with ATT&CK Architecture Assets. All assets can be mapped to 
-ATT&CK for Enterprise's platforms and/or ATT&CK for ICS' assets. There are nine assets where ATT&CK for ENterprise and ATT&CK for ICS overlap:
+ATT&CK for Enterprise's platforms and/or ATT&CK for ICS' assets. There are nine assets where ATT&CK for Enterprise and ATT&CK for ICS overlap:
 
 * Control Server
 * Human-Machine Interface (HMI)

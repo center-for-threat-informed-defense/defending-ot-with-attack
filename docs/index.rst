@@ -12,7 +12,7 @@ This project is created and maintained by `MITRE Engenuity Center for Threat-Inf
 and is funded by our research participants, in futherance of our mission to advance the state 
 of the art and the state of the practice in threat-informed defense globally. This work builds upon the 
 Center's `Defending IaaS with ATT&CK <https://mitre-engenuity.org/cybersecurity/center-for-threat-informed-defense/our-work/defending-iaas-with-attack/>`_ project by 
-by using the methodology and tooling created under that project as a basis, and provides another collection
+using the methodology and tooling created under that project as a basis, and provides another collection
 of resources cyber defenders can use to understand and make threat-informed decisions for techniques that 
 could be used within an IT/OT hybrid architecture and environment. 
 
