@@ -20,7 +20,7 @@
 project = "Defending OT with ATT&CK"
 author = "Center for Threat-Informed Defense"
 copyright_years = "2024"
-prs_numbers = "REPLACE_WITH_PRS_NUMBER"
+prs_numbers = "CT0121"
 
 # The full version, including alpha/beta/rc tags
 version = "v1.0.0"
@@ -71,7 +71,7 @@ html_context = {
     "prs_numbers": prs_numbers,
 }
 html_theme_options = {
-    "analytics_id": "", # TODO Create and fill in Google Analytics G-tag.
+    "analytics_id": "G-QG6ND04B2Y",
     "display_version": True,
     "logo_only": True,
     "style_external_links": True,

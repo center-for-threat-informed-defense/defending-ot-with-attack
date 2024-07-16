@@ -1,69 +1,64 @@
 Reference Architecture
 ======================
 
-Defending OT with ATT&CK developed a basic reference architecture to provide a common, 
-reusable view of assets and technologies used in IT/OT hybrid environments where a threat 
-actor can impact operations. The reference architecture identifies the attack surface and 
-serves as a framework for depicting assets using functional components across the technology 
-stack of an OT environment in hierarchical levels. It can be used to help understand the 
-segmentation of industrial processes and IT systems, delineated boundaries between different 
-operational zones, and interactions between IT and OT systems. 
+Defending OT with ATT&CK developed a reference architecture to provide a common,
+reusable view of assets and technologies used in IT/OT hybrid environments where a
+threat actor can impact operations. The reference architecture identifies the attack
+surface and serves as a framework for depicting assets using functional components
+across the technology stack of an OT environment in hierarchical levels. It can be used
+to help understand the segmentation of industrial processes and IT systems, delineated
+boundaries between different operational zones, and interactions between IT and OT
+systems.
 
-.. image:: ./_static/ref_arch.png
+.. figure:: ./_static/ref_arch.png
+    :align: center
+    :scale: 80%
 
-The Defending OT with ATT&CK reference architecture is adapted from the `Purdue Enterprise Reference Architecture (PERA) model <https://www.energy.gov/sites/default/files/2022-10/Infra_Topic_Paper_4-14_FINAL.pdf>`_, 
-which historically has been the primary reference to describe the structure of OT networks. 
-ATT&CK for Enterprise and ATT&CK for ICS platforms and assets were reviewed to aid in determining 
-relevant assets and technologies. Consideration was also given for international standards and 
+    Reference Architecture (click to enlarge)
+
+The Defending OT with ATT&CK reference architecture is adapted from the `Purdue Enterprise Reference Architecture (PERA) model <https://www.energy.gov/sites/default/files/2022-10/Infra_Topic_Paper_4-14_FINAL.pdf>`_,
+which historically has been the primary reference to describe the structure of OT networks.
+ATT&CK for Enterprise and ATT&CK for ICS platforms and assets were reviewed to aid in determining
+relevant assets and technologies. Consideration was also given for international standards and
 sector-based use cases (e.g., factory automation, maritime transport).
 
 Architecture Assets
 -------------------
 
-Control systems standards and guidance containing reference architectures with assets were reviewed 
-when developing the assets that comprise Defending OT with ATT&CK's reference architecture. These sources 
-include the `ISA/IEC 62443 series of standards <https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards>`_ for protecting industrial automation and control systems (IACS) 
-from cyberthreats and `NIST SP 800-82 Rev. 3: Guide to Operational Technology (OT) Security <https://csrc.nist.gov/pubs/sp/800/82/r3/final>`_ which 
-encompasses security for a broad range of systems and devices. The following considerations were also 
-taken when defining the Defending OT with ATT&CK's architecture assets:
+Control systems standards and guidance containing reference architectures with assets
+were reviewed when developing the assets that comprise Defending OT with ATT&CK's
+reference architecture. These sources include the `ISA/IEC 62443 series of standards
+<https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards>`_
+for protecting industrial automation and control systems (IACS) from cyberthreats and
+`NIST SP 800-82 Rev. 3: Guide to Operational Technology (OT) Security
+<https://csrc.nist.gov/pubs/sp/800/82/r3/final>`_ which encompasses security for a broad
+range of systems and devices. The following considerations were also taken when defining
+the Defending OT with ATT&CK's architecture assets:
 
-* Enterprise IT and OT Security
+Enterprise IT and OT Security
+    Enterprise IT and OT security attack surface management, OT and ICS areas of interest,
+    network assets, wireless protocols in energy sector, manufacturing systems
 
-  *  Enterprise IT and OT security attack surface management, OT and ICS areas of interest, 
-     network assets, wireless protocols in energy sector, manufacturing systems
+Network Segmentation, Governance, and Compliance
+    Measured inclusion due to the limitations of mapping these assets to attack vectors
 
-* Network Segmentation, Governance, and Compliance
+Architecture and Attack Vectors
+    Abstraction of cloud OT and on-prem OT to account for different attack vectors
 
-  * Measured inclusion due to the limitations of mapping these assets to attack vectors
-
-* Architecture and Attack Vectors
-
-  * Abstraction of cloud OT and on-prem OT to account for different attack vectors
-
-* Adversaries and Goals in IT compared to OT
-
-  * Distinction emphasized between IT networks where adversaries seek information exfiltration 
+Adversaries and Goals in IT compared to OT
+    Distinction emphasized between IT networks where adversaries seek information exfiltration
     and OT networks where objectives are focused on operations disruption
 
-* Impacting ICS
-
-  * Understanding impact to assets, particulary in context of ICS and application of ATT&CK 
+Impacting ICS
+    Understanding impact to assets, particulary in context of ICS and application of ATT&CK
     in IT and OT environments
 
-.. image:: ./_static/assets.png
+.. _asset-table:
 
-The below table provides descriptions for each of the 21 identified Defending OT with ATT&CK Architecture Assets. All assets can be mapped to 
-ATT&CK for Enterprise's platforms and/or ATT&CK for ICS' assets. There are nine assets where ATT&CK for ENterprise and ATT&CK for ICS overlap:
-
-* Control Server
-* Human-Machine Interface (HMI)
-* Jump Hosts
-* Application Server
-* Engineering Workstation
-* Routers in OT networks 
-* Data Historian
-* VPN Server 
-* Firewall
+The below table provides descriptions for each of the 21 identified Defending OT with
+ATT&CK Architecture Assets. All assets can be mapped to ATT&CK for Enterprise's
+platforms and/or ATT&CK for ICS' assets. There are nine assets where ATT&CK for
+Enterprise and ATT&CK for ICS overlap.
 
 +--------------------------------------+---------------------------------------------------------------------------------------------------+
 + Asset Name                           + Description                                                                                       +
@@ -85,7 +80,7 @@ ATT&CK for Enterprise's platforms and/or ATT&CK for ICS' assets. There are nine 
 + Container                            + A container is standard unit of virtualized software that packages up code and its dependencies   +
 +                                      + so the application runs quickly and reliably from one computing environment to another.           +
 +--------------------------------------+---------------------------------------------------------------------------------------------------+
-+ Control Server                       + Control servers are typically a software platform that runs on a modern server operating system   + 
++ Control Server                       + Control servers are typically a software platform that runs on a modern server operating system   +
 + [ICS & Enterprise]                   + (e.g., MS Windows Server). The server typically uses one or more automation protocols (e.g.,      +
 +                                      + Modbus, DNP3) to communicate with the various low-level control devices such as Remote Terminal   +
 +                                      + Units (RTUs) and Programmable Logic Controllers (PLCs). The control server also usually provides  +
@@ -174,9 +169,9 @@ ATT&CK for Enterprise's platforms and/or ATT&CK for ICS' assets. There are nine 
 + Servers and Endpoints                + A server is a system that provides resources, data, services, or programs to other systems over a +
 + [OS: Linux, Windows]                 + network. Endpoints are physical devices that connect to and exchange information with a network.  +
 +--------------------------------------+---------------------------------------------------------------------------------------------------+
-+ Virtual Private Network (VPN) Server + A VPN server is a device that is used to establish a secure network tunnel between itself and     + 
++ Virtual Private Network (VPN) Server + A VPN server is a device that is used to establish a secure network tunnel between itself and     +
 + [ICS & Enterprise]                   + other remote VPN devices, including field VPNs. VPN servers can be used to establish a secure     +
-+                                      + connection with a single remote device, or to securely bridge all traffic between two separate    + 
++                                      + connection with a single remote device, or to securely bridge all traffic between two separate    +
 +                                      + networks together by encapsulating all data between those networks. VPN servers typically support +
 +                                      + remote network services that are used by field VPNs to initiate the establishment of the secure   +
 +                                      + VPN tunnel between the field device and server.                                                   +
