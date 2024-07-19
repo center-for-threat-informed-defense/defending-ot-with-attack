@@ -6,11 +6,17 @@
 Defending Operational Technology (OT) with ATT&CK  is a Center for Threat-Informed
 Defense (Center) project that provides a customized collection of [MITRE
 ATT&CK®](https://attack.mitre.org/) techniques tailored to the attack surface and threat
-model for OT environments. The collection of threats contained in the ATT&CK
-knowledgebase, including historical attacks against OT, are used to define a reference
-architecture and technology domains of interest for OT. The resultant collection can be
-used by organizations that use OT to evaluate and employ security controls for
-real-world adversary behaviors.
+model for OT environments. A typical OT environment spans multiple platforms (e.g., Linux and 
+Microsoft Azure) and even spans technology domains (e.g., Enterprise and ICS). These complex 
+environments require cyber defenders to track adversary behaviors that are defined across 
+multiple matrices and platforms in the ATT&CK knowledgebase. Keeping track of techniques across 
+different ATT&CK matrices can be difficult, and some techniques may not apply to a particular 
+environment or architecture. To that end, this project defines a reference architecture and a 
+corresponding attack surface, then creates mappings of relevant techniques from multiple matrices 
+to provide a single, convenient collection of resources. The resultant collection can be used
+by organizations that use OT to understand and describe adversary activities and impact on assets 
+across an environment, conduct strategic adversarial simulations, evaluate and employ security 
+controls for real-world adversary behaviors, and conduct cyber tabletop excerises.
 
 **Table Of Contents:**
 
@@ -21,14 +27,18 @@ real-world adversary behaviors.
 
 ## Getting Started
 
-The project website includes an overview of the project, the reference architecture
-assets, the threat modeling methodology, and the customized threat collection.
+To get started, visit the project website. The project website provides:
+- an overview of the project,
+- the reference architecture of assets and technologies used in IT/OT hybrid environments,
+- the customized threat collection of ATT&CK techniques for OT environments,
+- the five-step threat modeling methodology approach used,
+- use cases to demonstrate how project resources can be employed, and
+- an ATT&CK-based cyber tabletop exercise scenario.
 
-| Resource                                                                                                                               | Description                                        |
-| -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| [Project Website](https://center-for-threat-informed-defense.github.io/defending-ot-with-attack/)                                      | Reference architecture, methodology, usage         |
-| [Threat Collection](https://github.com/center-for-threat-informed-defense/defending-ot-with-attack/modified_work_bench_file.json)      | Mapped techniques for OT environments              |
-| [Hybrid Navigator Layer](https://github.com/center-for-threat-informed-defense/defending-ot-with-attack/tree/main/mappings/layers/TBD) | ATT&CK Navigator views of the hybrid ATT&CK matrix |
+| Resource                                                                                                                 | Description                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
+| [Project Website](https://center-for-threat-informed-defense.github.io/defending-ot-with-attack/)                        | Reference architecture, methodology, usage                                            |
+| [Threat Collection](https://github.com/center-for-threat-informed-defense/defending-ot-with-attack/tree/main/docs/extra) | ATT&CK Workbench Collection, Hybrid ATT&CK Matrix (Excel), and JSON Threat Collection |
 
 ## Getting Involved
 
@@ -51,7 +61,7 @@ the guidance for contributors if are you interested in [contributing or simply r
 issues.](/CONTRIBUTING.md)
 
 Please submit
-[issues](https://github.com/center-for-threat-informed-defense/mappings-explorer/issues)
+[issues](https://github.com/center-for-threat-informed-defense/defending-ot-with-attack/issues)
 for any technical questions/concerns or contact
 [ctid@mitre-engenuity.org](mailto:ctid@mitre-engenuity.org?subject=Question%20about%20Defending%20OT%20with%20Attack)
 directly for more general inquiries.
