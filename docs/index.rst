@@ -24,7 +24,7 @@ could be used within an IT/OT hybrid architecture and environment.
     architecture
     collection
     methodology
-    use cases
+    use_cases
     exercise
 
 Notice
