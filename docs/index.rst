@@ -30,8 +30,7 @@ could be used within an IT/OT hybrid architecture and environment.
 Notice
 ------
 
-© 2024 MITRE Engenuity. Approved for public release. Document number(s)
-CT0121.
+© 2024 MITRE Engenuity. Approved for public release. Document number CT0121.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
 file except in compliance with the License. You may obtain a copy of the License at

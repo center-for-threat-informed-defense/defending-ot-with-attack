@@ -83,7 +83,7 @@ ATT&CK for Enterprise's platforms and/or ATT&CK for ICS' assets. There are nine 
 + [SaaS/M365/Google Workspace]         + third-party providers, made available to users through network connections and/or APIs.           +
 +--------------------------------------+---------------------------------------------------------------------------------------------------+
 + Container                            + A container is standard unit of virtualized software that packages up code and its dependencies   +
-+                                      + so the application runs quickly and reliably from one computing environment to another.           +
++ [Enterprise]                         + so the application runs quickly and reliably from one computing environment to another.           +
 +--------------------------------------+---------------------------------------------------------------------------------------------------+
 + Control Server                       + Control servers are typically a software platform that runs on a modern server operating system   + 
 + [ICS & Enterprise]                   + (e.g., MS Windows Server). The server typically uses one or more automation protocols (e.g.,      +

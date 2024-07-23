@@ -22,11 +22,7 @@ This includes:
  
  .. <<!-- TO DO --!>>
    tagged techniques for OT environments
-   Total ATT&CK (sub-)techniques -> Mapped to each asset and count (i.e., 510 techniques mapped to each assets).
-   plus image
-   downloads:
-   - STIX bundle
-   - multi-domain ATT&CK matrix for Navigator
+   Total ATT&CK (sub-)techniques
 
 Download the Threat Collection
 ------------------------------
@@ -85,7 +81,3 @@ ATT&CK Workbench enables a number of important use cases within the ATT&CK commu
 * **Defensive Planning:** Stay up to date with the evolving threat landscape by downloading new releases of ATT&CK automatically.
 
 * **Collaboration with ATT&CK and the community:** Share your custom datasets with the ATT&CK community and download datasets created by others.
-
-
-
-
