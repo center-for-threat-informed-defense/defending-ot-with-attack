@@ -50,8 +50,6 @@ taken when defining the Defending OT with ATT&CK's architecture assets:
   * Understanding impact to assets, particulary in context of ICS and application of ATT&CK 
     in IT and OT environments
 
-.. image:: ./_static/assets.png
-
 The below table provides descriptions for each of the 21 identified Defending OT with ATT&CK Architecture Assets. All assets can be mapped to 
 ATT&CK for Enterprise's platforms and/or ATT&CK for ICS' assets. There are nine assets where ATT&CK for Enterprise and ATT&CK for ICS overlap:
 
