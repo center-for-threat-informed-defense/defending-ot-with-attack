@@ -20,9 +20,11 @@ This includes:
 
 * techniques on OT assets that run similar operating systems, protocols, and applications as enterprise IT assets.
  
- .. <<!-- TO DO --!>>
-   tagged techniques for OT environments
-   Total ATT&CK (sub-)techniques
+The project team applied the :doc:`methodology` and employed the flexibility and customization 
+provided by ATT&CK Workbench to develop this collection of specific adversarial risks associated 
+with the 21 Defending OT with ATT&CK :doc:`architecture` assets. The resultant threat collection
+contains a combined 720 techniques from ATT&CK for Enterprise and ATT&CK for ICS (285 techniques 
+and 435 sub-techniques).
 
 Download the Threat Collection
 ------------------------------
