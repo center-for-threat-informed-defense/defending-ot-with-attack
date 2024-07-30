@@ -53,12 +53,8 @@ Impacting ICS
     Understanding impact to assets, particulary in context of ICS and application of ATT&CK
     in IT and OT environments
 
-.. _asset-table:
-
-The below table provides descriptions for each of the 21 identified Defending OT with
-ATT&CK Architecture Assets. All assets can be mapped to ATT&CK for Enterprise's
-platforms and/or ATT&CK for ICS' assets. There are nine assets where ATT&CK for
-Enterprise and ATT&CK for ICS overlap.
+The below table provides descriptions for each of the 21 identified Defending OT with ATT&CK Architecture Assets. All assets were mapped to 
+ATT&CK for Enterprise's platforms and/or ATT&CK for ICS' assets. There were nine assets where ATT&CK for Enterprise and ATT&CK for ICS overlap:
 
 +--------------------------------------+---------------------------------------------------------------------------------------------------+
 + Asset Name                           + Description                                                                                       +
@@ -78,7 +74,7 @@ Enterprise and ATT&CK for ICS overlap.
 + [SaaS/M365/Google Workspace]         + third-party providers, made available to users through network connections and/or APIs.           +
 +--------------------------------------+---------------------------------------------------------------------------------------------------+
 + Container                            + A container is standard unit of virtualized software that packages up code and its dependencies   +
-+                                      + so the application runs quickly and reliably from one computing environment to another.           +
++ [Enterprise]                         + so the application runs quickly and reliably from one computing environment to another.           +
 +--------------------------------------+---------------------------------------------------------------------------------------------------+
 + Control Server                       + Control servers are typically a software platform that runs on a modern server operating system   +
 + [ICS & Enterprise]                   + (e.g., MS Windows Server). The server typically uses one or more automation protocols (e.g.,      +
@@ -176,4 +172,3 @@ Enterprise and ATT&CK for ICS overlap.
 +                                      + remote network services that are used by field VPNs to initiate the establishment of the secure   +
 +                                      + VPN tunnel between the field device and server.                                                   +
 +--------------------------------------+---------------------------------------------------------------------------------------------------+
-

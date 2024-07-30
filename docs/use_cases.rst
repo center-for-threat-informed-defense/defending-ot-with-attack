@@ -51,7 +51,7 @@ Defending OT with ATT&CK enables the following essential capabilities:
      including red teaming and penetration testing, to effectively evaluate real-world 
      risks across the attack surface.
 
-**Improved Security Architecture and Operations** 
+**Security Architecture and Operations** 
      Users can use the mapped information to more easily identify security control gaps 
      to protect systems and environments from threats, develop detections for adversary 
      activity, and plan appropriate response activities across their IT/OT environment.
