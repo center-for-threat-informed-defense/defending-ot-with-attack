@@ -16,6 +16,11 @@ using the methodology and tooling created under that project as a basis, and pro
 of resources cyber defenders can use to understand and make threat-informed decisions for techniques that 
 could be used within an IT/OT hybrid architecture and environment. 
 
+.. image:: _static/defending-ot.jpg
+    :align: center
+    :scale: 50%
+
+|
 .. toctree::
     :maxdepth: 2
     :caption: Contents
@@ -42,4 +47,4 @@ KIND, either express or implied. See the License for the specific language gover
 permissions and limitations under the License.
 
 This project makes use of ATT&CK®: `ATT&CK Terms of Use
-<https://attack.mitre.org/resources/terms-of-use/>`__
+<https://attack.mitre.org/resources/legal-and-branding/terms-of-use/>`__

@@ -1,22 +1,24 @@
+[![MITRE ATT&CK®
+15.1](https://img.shields.io/badge/MITRE%20ATT%26CK®-v15-red)](https://attack.mitre.org/versions/v15/)
+
 # Defending OT with ATT&CK
 
-<!-- TODO Put a one paragraph summary of the project here. -->
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
+Defending Operational Technology (OT) with ATT&CK  is a Center for Threat-Informed
+Defense (Center) project that provides a customized collection of [MITRE
+ATT&CK®](https://attack.mitre.org/) techniques tailored to the attack surface and threat
+model for OT environments. A typical OT environment spans multiple platforms (e.g., Linux and 
+Microsoft Azure) and even spans technology domains (e.g., Enterprise and ICS). These complex 
+environments require cyber defenders to track adversary behaviors that are defined across 
+multiple matrices and platforms in the ATT&CK knowledgebase. Keeping track of techniques across 
+different ATT&CK matrices can be difficult, and some techniques may not apply to a particular 
+environment or architecture. To that end, this project defines a reference architecture and a 
+corresponding attack surface, then creates mappings of relevant techniques from multiple matrices 
+to provide a single, convenient collection of resources. The resultant collection can be used
+by organizations that use OT to understand and describe adversary activities and impact on assets 
+across an environment, conduct strategic adversarial simulations, evaluate and employ security 
+controls for real-world adversary behaviors, and conduct cyber tabletop excerises.
 
 **Table Of Contents:**
-
-<!--
-TODO The table of contents should include only h2-h6, NOT h1. The "Markdown All In One"
-extension for VS Code will update the TOC automatically for you:
-https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
-Set the extension's TOC:Levels setting to "2..6"
--->
 
 - [Getting Started](#getting-started)
 - [Getting Involved](#getting-involved)
@@ -25,55 +27,48 @@ Set the extension's TOC:Levels setting to "2..6"
 
 ## Getting Started
 
-<!-- TODO Write one paragraph about how users should get started,
-     and update the table of resources below. -->
+To get started, visit the project website. The project website provides:
+- an overview of the project,
+- the reference architecture of assets and technologies used in IT/OT hybrid environments,
+- the customized threat collection of ATT&CK techniques for OT environments,
+- the five-step threat modeling methodology approach used,
+- use cases to demonstrate how project resources can be employed, and
+- an ATT&CK-based cyber tabletop exercise scenario.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
-
-| Resource        | Description              |
-| --------------- | ------------------------ |
-| [Resource 1](#) | Description of resource. |
-| [Resource 2](#) | Description of resource. |
-| [Resource 3](#) | Description of resource. |
+| Resource                                                                                                                 | Description                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
+| [Project Website](https://center-for-threat-informed-defense.github.io/defending-ot-with-attack/)                        | Reference architecture, methodology, usage                                            |
+| [Threat Collection](https://github.com/center-for-threat-informed-defense/defending-ot-with-attack/tree/main/docs/extra) | ATT&CK Workbench Collection, Hybrid ATT&CK Matrix (Excel), and JSON Threat Collection |
 
 ## Getting Involved
 
-<!-- TODO Add some bullets telling users how to get involved. -->
-
 There are several ways that you can get involved with this project and help
-advance threat-informed defense:
+advance threat-informed defense.
 
-- **Way to get involved 1.** Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- **Way to get involved 2.** Ut enim ad minim veniam, quis nostrud exercitation ullamco
-  laboris nisi ut aliquip ex ea commodo consequat.
-- **Way to get involved 3.** Duis aute irure dolor in reprehenderit in voluptate velit
-  esse cillum dolore eu fugiat nulla pariatur.
+- **Visit the project website.** Use the website to learn about the methodology,
+  findings, and deliverables for this project.
+- **Use it with ATT&CK Workbench.** For [ATT&amp;CK
+  Workbench](https://github.com/center-for-threat-informed-defense/attack-workbench-frontend)
+  users, import the threat collection from this project into your Workbench so that you
+  can integrate OT planning into your overall workflow
+- **Spread the word.** Share your feedback and thoughts on the project with your
+  colleagues and industry peers.
 
 ## Questions and Feedback
 
-Please submit [issues on
-GitHub](https://github.com/center-for-threat-informed-defense/defending-ot-with-attack/issues)
-for any technical questions or requests. You may also contact
-[ctid@mitre-engenuity.org](mailto:ctid@mitre-engenuity.org?subject=Question%20about%20defending-ot-with-attack) directly for more general inquiries about
-the Center for Threat-Informed Defense.
+We welcome your feedback and contributions to help advance Mappings Explorer. Please see
+the guidance for contributors if are you interested in [contributing or simply reporting
+issues.](/CONTRIBUTING.md)
 
-We welcome your contributions to help advance Defending OT with ATT&CK in the form of [pull
-requests](https://github.com/center-for-threat-informed-defense/defending-ot-with-attack/pulls).
-Please review the [contributor
-notice](https://github.com/center-for-threat-informed-defense/defending-ot-with-attack/blob/main/CONTRIBUTING.md)
-before making a pull request.
+Please submit
+[issues](https://github.com/center-for-threat-informed-defense/defending-ot-with-attack/issues)
+for any technical questions/concerns or contact
+[ctid@mitre-engenuity.org](mailto:ctid@mitre-engenuity.org?subject=Question%20about%20Defending%20OT%20with%20Attack)
+directly for more general inquiries.
 
 ## Notice
 
-<!-- TODO Add PRS prior to publication. -->
-
-Copyright 2024 MITRE Engenuity. Approved for public release. Document number REPLACE_WITH_PRS_NUMBER
+© 2024 MITRE Engenuity. Approved for public release. Document number(s) CT0121.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
 file except in compliance with the License. You may obtain a copy of the License at
