@@ -28,7 +28,7 @@ assets, the threat modeling methodology, and the customized threat collection.
 | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
 | [Project Website](https://center-for-threat-informed-defense.github.io/defending-ot-with-attack/)                                      | Reference architecture, methodology, usage         |
 | [Threat Collection](https://github.com/center-for-threat-informed-defense/defending-ot-with-attack/modified_work_bench_file.json)      | Mapped techniques for OT environments              |
-| [Hybrid Navigator Layer](https://github.com/center-for-threat-informed-defense/defending-ot-with-attack/tree/main/mappings/layers/TBD) | ATT&CK Navigator views of the hybrid ATT&CK matrix |
+| [Hybrid ATT&CK Matrix](https://github.com/center-for-threat-informed-defense/defending-ot-with-attack/tree/main/mappings/layers/TBD) | Provides view of the hybrid ATT&CK for Enterprise and ICS matrix |
 
 ## Getting Involved
 
