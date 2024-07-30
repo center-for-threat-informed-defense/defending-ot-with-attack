@@ -23,8 +23,8 @@ This includes:
 The project team applied the :doc:`methodology` and employed the flexibility and customization 
 provided by ATT&CK Workbench to develop this collection of specific adversarial risks associated 
 with the 21 Defending OT with ATT&CK :doc:`architecture` assets. The resultant threat collection
-contains a combined 720 techniques from ATT&CK for Enterprise and ATT&CK for ICS (285 techniques 
-and 435 sub-techniques).
+contains a combined 692 techniques from ATT&CK for Enterprise and ATT&CK for ICS (251 techniques 
+and 441 sub-techniques).
 
 Download the Threat Collection
 ------------------------------
