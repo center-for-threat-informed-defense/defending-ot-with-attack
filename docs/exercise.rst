@@ -34,8 +34,8 @@ Conducting the Exercise
 The exercise was conducted using the Defending OT with ATT&CK `reference architecture <./architecture.rst>`_. 
 This reference architecture is depicted in the image below. Exercise participants 
 assumed the role of cybersecurity experts for an organization with a technical environment 
-similar to the hacked power plant infrastructure. Red boxes are used to indicate 
-assets impacted during the campaign.
+similar to the hacked power plant infrastructure. Assets impacted during the campaign are 
+outlined with red boxes.
 
 .. image:: ./_static/exercise.png
 

@@ -4,9 +4,9 @@ Overview
 Organizations need to understand which techniques adversaries can use against 
 Operational Technology (OT) systems. This includes:
 
-* techniques that occur on enterprise systems used to manage OT,
+* techniques that occur on enterprise systems used to manage OT;
 
-* techniques on Industrial Control Systems (ICS), and
+* techniques on Industrial Control Systems (ICS); and
 
 * techniques on OT assets that run similar operating systems, protocols, and applications as enterprise IT assets.
 

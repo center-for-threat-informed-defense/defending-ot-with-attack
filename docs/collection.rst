@@ -14,9 +14,9 @@ Defending OT with ATT&CK provides a defined threat collection to assist defender
 understanding which techniques adversaries could use within an IT/OT hybrid architecture. 
 This includes:
 
-* techniques that occur on enterprise systems used to manage OT,
+* techniques that occur on enterprise systems used to manage OT;
 
-* techniques on Industrial Control Systems (ICS), and
+* techniques on Industrial Control Systems (ICS); and
 
 * techniques on OT assets that run similar operating systems, protocols, and applications as enterprise IT assets.
  
