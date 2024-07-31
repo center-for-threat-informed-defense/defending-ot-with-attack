@@ -27,18 +27,14 @@ controls for real-world adversary behaviors, and conduct cyber tabletop excerise
 
 ## Getting Started
 
-To get started, visit the project website. The project website provides:
-- an overview of the project,
-- the reference architecture of assets and technologies used in IT/OT hybrid environments,
-- the customized threat collection of ATT&CK techniques for OT environments,
-- the five-step threat modeling methodology approach used,
-- use cases to demonstrate how project resources can be employed, and
-- an ATT&CK-based cyber tabletop exercise scenario.
+Go to the project website to learn all about the Defending OT With ATT&CK project and
+its deliverables. In particular, the Threat Collection is a dataset that can be loaded
+into ATT&CK Workbench.
 
-| Resource                                                                                                                 | Description                                                                           |
-| ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
-| [Project Website](https://center-for-threat-informed-defense.github.io/defending-ot-with-attack/)                        | Reference architecture, methodology, usage                                            |
-| [Threat Collection](https://github.com/center-for-threat-informed-defense/defending-ot-with-attack/tree/main/docs/extra) | ATT&CK Workbench Collection, Hybrid ATT&CK Matrix (Excel), and JSON Threat Collection |
+| Resource                                                                                                       | Description                                                                                          |
+| -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| [Project Website](https://center-for-threat-informed-defense.github.io/defending-ot-with-attack/)              | The project website describes the reference architecture, methodology, threat collection, and usage. |
+| [Threat Collection](https://center-for-threat-informed-defense.github.io/defending-ot-with-attack/collection/) | A custom threat collection for ATT&CK Workbench. Also available in Excel and JSON formats.           |
 
 ## Getting Involved
 
