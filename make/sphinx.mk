@@ -1,5 +1,5 @@
 SOURCEDIR = docs/
-BUILDDIR = docs/_build/
+BUILDDIR = docs/_build
 
 .PHONY: docs docs-html docs-pdf
 
@@ -18,4 +18,3 @@ docs-pdf: ## Generate PDF documentation.
 docs-server: ## Run server for local editing of docs.
 	sphinx-autobuild -b dirhtml -a "$(SOURCEDIR)" "$(BUILDDIR)"
 
-sphinx-build -M dirhtml "docs/" "docs/_build/" -W --keep-going

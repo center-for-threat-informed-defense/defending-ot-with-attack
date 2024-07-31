@@ -12,7 +12,7 @@ systems.
 
 .. figure:: ./_static/ref_arch.png
     :align: center
-    :scale: 80%
+    :scale: 25%
 
     Reference Architecture (click to enlarge)
 
@@ -53,8 +53,12 @@ Impacting ICS
     Understanding impact to assets, particulary in context of ICS and application of ATT&CK
     in IT and OT environments
 
-The below table provides descriptions for each of the 21 identified Defending OT with ATT&CK Architecture Assets. All assets were mapped to 
-ATT&CK for Enterprise's platforms and/or ATT&CK for ICS' assets. There were nine assets where ATT&CK for Enterprise and ATT&CK for ICS overlap:
+.. _asset-table:
+
+The below table provides descriptions for each of the 21 identified Defending OT with
+ATT&CK Architecture Assets. All assets were mapped to ATT&CK for Enterprise's platforms
+and/or ATT&CK for ICS' assets. There were nine assets where ATT&CK for Enterprise and
+ATT&CK for ICS overlap:
 
 +--------------------------------------+---------------------------------------------------------------------------------------------------+
 + Asset Name                           + Description                                                                                       +

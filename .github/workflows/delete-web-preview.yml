@@ -14,7 +14,7 @@ jobs:
   azure_blob:
     runs-on: ubuntu-latest
     env:
-      AZURE_STORAGE_ACCOUNT: {{ cookiecutter.storage_account }}
+      AZURE_STORAGE_ACCOUNT: defendingotwithattack
       AZURE_STORAGE_SAS_TOKEN: ${{ secrets.AZURE_SAS_TOKEN }}
       BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
     steps:

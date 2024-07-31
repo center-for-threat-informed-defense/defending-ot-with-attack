@@ -1,26 +1,27 @@
 Defending Operational Technology (OT) with ATT&CK
 =================================================
 
-Defending OT with ATT&CK provides a customized collection of `MITRE ATT&CK® <https://attack.mitre.org/>`_ techniques 
-tailored to the attack surface and threat model for OT environments. The collection of 
+Defending OT with ATT&CK provides a customized collection of `MITRE ATT&CK® <https://attack.mitre.org/>`_ techniques
+tailored to the attack surface and threat model for OT environments. The collection of
 threats contained in the ATT&CK knowledgebase, including historical attacks against OT,
-are used to define a reference architecture and technology domains of interest for OT. 
-The resultant collection can be used by organizations that use OT to evaluate and employ 
+are used to define a reference architecture and technology domains of interest for OT.
+The resultant collection can be used by organizations that use OT to evaluate and employ
 security controls for real-world adversary behaviors.
 
 This project is created and maintained by `MITRE Engenuity Center for Threat-Informed Defense (Center) <https://ctid.mitre-engenuity.org/>`_
-and is funded by our research participants, in futherance of our mission to advance the state 
-of the art and the state of the practice in threat-informed defense globally. This work builds upon the 
-Center's `Defending IaaS with ATT&CK <https://mitre-engenuity.org/cybersecurity/center-for-threat-informed-defense/our-work/defending-iaas-with-attack/>`_ project by 
+and is funded by our research participants, in futherance of our mission to advance the state
+of the art and the state of the practice in threat-informed defense globally. This work builds upon the
+Center's `Defending IaaS with ATT&CK <https://mitre-engenuity.org/cybersecurity/center-for-threat-informed-defense/our-work/defending-iaas-with-attack/>`_ project by
 using the methodology and tooling created under that project as a basis, and provides another collection
-of resources cyber defenders can use to understand and make threat-informed decisions for techniques that 
-could be used within an IT/OT hybrid architecture and environment. 
+of resources cyber defenders can use to understand and make threat-informed decisions for techniques that
+could be used within an IT/OT hybrid architecture and environment.
 
 .. image:: _static/defending-ot.jpg
     :align: center
     :scale: 50%
 
 |
+
 .. toctree::
     :maxdepth: 2
     :caption: Contents
