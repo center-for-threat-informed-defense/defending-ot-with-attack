@@ -36,7 +36,7 @@ role of cybersecurity experts for an organization with a technical environment s
 to the hacked power plant infrastructure. Red boxes are used to indicate assets impacted
 during the campaign.
 
-.. figure:: ./_static/ref_arch.png
+.. figure:: ./_static/exercise.png
   :align: center
   :scale: 25%
 
