@@ -81,7 +81,7 @@ html_context = {
 
 footer_links = [
     ["Defending IaaS with ATT&CK", "https://center-for-threat-informed-defense.github.io/defending-iaas-with-attack/"],
-    ["Threat Modeling with ATT&CK", "https://center-for-threat-informed-defense.github.io/threat-modeling-with-attack/#"],
+    ["Threat Modeling with ATT&CK", "https://center-for-threat-informed-defense.github.io/threat-modeling-with-attack/"],
     ["ATT&CK Workbench", "https://ctid.mitre.org/projects/attck-workbench/"],
 ]
 

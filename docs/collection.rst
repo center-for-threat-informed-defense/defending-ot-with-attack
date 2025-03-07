@@ -47,7 +47,7 @@ Building the Threat Collection
 
 Defending OT with ATT&CK builds upon prior work developed by the Center, including
 `Defending IaaS with ATT&CK
-<https://mitre.org/cybersecurity/center-for-threat-informed-defense/our-work/defending-iaas-with-attack/>`__
+<https://ctid.mitre.org/projects/defending-iaas-with-attack>`__
 and `ATT&CK Workbench
 <https://github.com/center-for-threat-informed-defense/attack-workbench-frontend/blob/master/README.md>`_.
 
