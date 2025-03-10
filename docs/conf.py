@@ -17,7 +17,7 @@ from slugify import slugify
 
 # -- Project information -----------------------------------------------------
 
-project = "Defending OT with ATT&CK"
+project = "Defending OT with ATT&CK v1.0.0"
 slug = slugify(project)
 googleanalytics_id= "G-QG6ND04B2Y" # find google analytics id from old analytics_id variable
 
@@ -89,6 +89,6 @@ html_theme_options = {
      "logo" : "ctid_logo_white.png",
     "logo_alt": "The Center for Threat-Informed Defense",
     "logo_width": 250,
-    "project_name": "Defending OT with ATT&CK",
+    "project_name": "Defending OT with ATT&CK v1.0.0",
     "footer_links": ",".join([f"{link[0]}|{link[1]}?utm_source={slug}" for link in footer_links]),
 }
