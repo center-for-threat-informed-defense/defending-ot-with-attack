@@ -59,12 +59,12 @@ issues.](/CONTRIBUTING.md)
 Please submit
 [issues](https://github.com/center-for-threat-informed-defense/defending-ot-with-attack/issues)
 for any technical questions/concerns or contact
-[ctid@mitre-engenuity.org](mailto:ctid@mitre-engenuity.org?subject=Question%20about%20Defending%20OT%20with%20Attack)
+[ctid@mitre.org](mailto:ctid@mitre.org?subject=Question%20about%20Defending%20OT%20with%20Attack)
 directly for more general inquiries.
 
 ## Notice
 
-© 2024 MITRE Engenuity. Approved for public release. Document number(s) CT0121.
+© 2024 MITRE. Approved for public release. Document number(s) CT0121.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
 file except in compliance with the License. You may obtain a copy of the License at
