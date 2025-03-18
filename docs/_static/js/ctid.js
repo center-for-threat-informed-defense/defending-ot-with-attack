@@ -62,16 +62,12 @@ function navHighlighter() {
     // current active link.
     if (closestEl) {
         let sectionId = closestEl.parentNode.id;
-        console.log(firstHeader);
-        console.log(closestEl);
         if (closestEl === firstHeader) {
             // Sphinx does this annoying thing where the first TOC entry doesn't
             // have the correct anchor, it's just #.
-            console.log("top condition");
             navLinks.forEach(nl => nl.classList.remove("active"));
             navLinks[0].classList.add("active");
         } else {
-            console.log("bottom condition");
             for (const navLink of navLinks) {
                 if (navLink.hash === `#${sectionId}`) {
                     navLinks.forEach(nl => nl.classList.remove("active"));
